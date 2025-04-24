@@ -1,5 +1,1 @@
-# Patientor frontend
-
-### Getting started
-  - To get the app running just install its dependencies with ```npm install``` and run it with ```npm run dev```.
-  - The app should work without a backend, but make sure that the request made to ```/api/ping``` made on startup is successful before continuing.
+This is a medical patient management system built with React, TypeScript, and Material UI. The application allows healthcare providers to view and manage patient information, including personal details (name, SSN, occupation, gender) and medical records. Users can browse a list of patients, view detailed patient information, and add new entries to patient records. The system supports different types of medical entries: HealthCheck visits, OccupationalHealthcare visits, and Hospital stays. Each entry type has specific fields (like health check ratings, employer information for occupational healthcare, or discharge details for hospital visits) and can include diagnosis codes that link to a database of medical conditions.
